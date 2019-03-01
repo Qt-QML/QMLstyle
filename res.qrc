@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Loadmain.qml</file>
+        <file>SearchView.qml</file>
+        <file>images/dark/window_close_hover.png</file>
+        <file>images/dark/window_close_normal.png</file>
+        <file>images/dark/window_close_press.png</file>
+        <file>images/dark/window_min_hover.png</file>
+        <file>images/dark/window_min_normal.png</file>
+        <file>images/dark/window_min_press.png</file>
+        <file>images/dark/window_option_hover.png</file>
+        <file>images/dark/window_option_normal.png</file>
+        <file>images/dark/window_option_press.png</file>
+        <file>images/light/window_close_hover.png</file>
+        <file>images/light/window_close_normal.png</file>
+        <file>images/light/window_close_press.png</file>
+        <file>images/light/window_min_hover.png</file>
+        <file>images/light/window_min_normal.png</file>
+        <file>images/light/window_min_press.png</file>
+        <file>images/light/window_option_hover.png</file>
+        <file>images/light/window_option_normal.png</file>
+        <file>images/light/window_option_press.png</file>
+        <file>Menu.qml</file>
+        <file>source/animateButtonBackGround.bmp</file>
+        <file>source/animateButtonBackGround2.bmp</file>
+        <file>source/searchIcon.bmp</file>
+        <file>qss/dark.qss</file>
+        <file>qss/light.qss</file>
+        <file>images/dark/setting.png</file>
+        <file>images/dark/square.png</file>
+        <file>images/light/setting.png</file>
+        <file>images/light/square.png</file>
+    </qresource>
+</RCC>

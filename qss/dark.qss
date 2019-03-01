@@ -1,0 +1,51 @@
+﻿#CloseButton {
+    border-image: url(":/images/dark/window_close_normal.png");
+}
+#CloseButton:hover {
+    border-image: url(":/images/dark/window_close_hover.png");
+}
+#CloseButton:pressed {
+    border-image: url(":/images/dark/window_close_press.png");
+}
+
+#MinSizeButton {
+    border-image: url(":/images/dark/window_min_normal.png");
+}
+#MinSizeButton:hover {
+    border-image: url(":/images/dark/window_min_hover.png");
+}
+#MinSizeButton:pressed {
+    border-image: url(":/images/dark/window_min_press.png");
+}
+
+#OptionButton {
+    border-image: url(":/images/dark/window_option_normal.png");
+}
+#OptionButton:hover {
+    border-image: url(":/images/dark/window_option_hover.png");
+}
+#OptionButton:pressed {
+    border-image: url(":/images/dark/window_option_press.png");
+}
+
+#MaxSizeButton {
+    border-image:url(":images/dark/square.png");
+}
+#MaxSizeButton:hover {
+    border-image:url(":images/dark/square.png");
+}
+#MaxSizeButton:pressed {
+    border-image:url(":images/dark/square.png");
+}
+
+#settingButton {
+    border-image:url(":images/dark/setting.png");
+}
+#settingButton:hover {
+    border-image:url(":images/dark/setting.png");
+}
+#settingButton:hover {
+    border-image:url(":images/dark/setting.png");
+}
+
+
