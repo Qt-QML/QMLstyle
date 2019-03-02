@@ -4,6 +4,6 @@ Item {
     Rectangle{
         height: 36
         width:300
-        color: "blue"
+        color: "black"
     }
 }

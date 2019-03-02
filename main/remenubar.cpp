@@ -49,7 +49,7 @@ void ReMenuBar::init()
     //设置边距大小
     m_hLayout->setContentsMargins(0,0,0,0);
     //设置窗口尺寸
-    this->setFixedHeight(40);
+    this->setFixedHeight(50);
     //设置背景颜色
     this->setBkColor("blue");
 

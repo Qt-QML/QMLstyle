@@ -12,39 +12,57 @@ Item {
         id:main
         color: "black"
         anchors.fill:parent
-        SplitView {
-            id:splitview
+        SplitView{
+            id:upDnSplite
             anchors.fill: parent
-            orientation: Qt.Horizontal
+            orientation: Qt.Vertical
             Rectangle{
-                id:left
-                width:200
-                Layout.minimumWidth: 200
-                Layout.maximumWidth: 400
-                color: "#AA66BB"
-                Text {
-                    id: text1
-                    anchors.centerIn: parent
-                    text: qsTr("text1")
-                }
-                SearchView{
-                    anchors.top: parent.top
-                }
+                id:up
+                width:parent.width
+                //此处的height对应c++类中toolBar中高度
+                //height: 50
+                Layout.minimumHeight: 50
+                Layout.maximumHeight: 50
 
             }
             Rectangle{
-                id:right
-                width: 200
-                Layout.fillWidth: true
-                Layout.minimumWidth: 200
-                color: "#FF6699"
-                Text {
-                    id: text2
-                    anchors.centerIn: parent
-                    text: qsTr("text2")
+                id:down
+                SplitView {
+                    id:lfRtSplite
+                    anchors.fill: parent
+                    orientation: Qt.Horizontal
+                    Rectangle{
+                        id:left
+                        width:200
+                        Layout.minimumWidth: 200
+                        Layout.maximumWidth: 400
+                        color: "black"
+                        Text {
+                            id: text1
+                            anchors.centerIn: parent
+                            text: qsTr("text1")
+                        }
+                        SearchView{
+                            anchors.top: parent.top
+                        }
+
+                    }
+                    Rectangle{
+                        id:right
+                        width: 200
+                        Layout.fillWidth: true
+                        Layout.minimumWidth: 200
+                        color: "black"
+                        //加入tableView
+                        MyTableView{
+                            anchors.fill: parent
+                        }
+                    }
                 }
             }
         }
+
+
 
     }
 }

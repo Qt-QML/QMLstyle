@@ -30,5 +30,10 @@
         <file>images/dark/square.png</file>
         <file>images/light/setting.png</file>
         <file>images/light/square.png</file>
+        <file>TableHeaderDelegate.qml</file>
+        <file>TableItemDelegate.qml</file>
+        <file>TableModel.qml</file>
+        <file>TableRowDelegate.qml</file>
+        <file>MyTableView.qml</file>
     </qresource>
 </RCC>
